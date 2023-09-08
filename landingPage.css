@@ -1,0 +1,113 @@
+body {
+    font-family: 'Inter', sans-serif;
+     
+    /*background-color: #FFDBAA;*/
+    background-color: #FBF0B2;
+
+ }
+
+ .pricing-container {
+   display: flex;
+   justify-content:center;
+   align-items: top;
+   height: 100vh;
+   gap: 2rem;
+   margin-top: 60px;
+   
+ }
+
+ .pricing-plan {
+   flex: 1;
+   width: 400px;
+   height: 300px;
+   padding: 20px;
+  background-color: #FFDBAA;
+   
+   border-radius: 20px;
+   text-align: center;
+ }
+
+ .plan-title {
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 10px;
+ }
+
+ .plan-price {
+   font-size: 30px;
+   font-weight: bold;
+   margin-bottom: 10px;
+ }
+
+ .plan-features {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+
+ .plan-features li {
+   margin-bottom: 20px;
+ }
+
+ .plan-button {
+     
+   padding: 10px;
+   background-color: #007f67;
+   color: #fff;
+   border-radius: 5px;
+   border: none;
+   
+ }
+ #movement{
+     background-image: url(./assets/movement.jpg.jpg);
+     
+     background-size: 450px 300px;
+     color: #fff;
+ }
+ #goodSamaritan{
+     background-image: url(./assets/goodSamaritan.jpg);
+     background-size: 450px 300px;
+     color: #fff;
+ }
+ #social{
+     background-image: url(./assets/society.jpg);
+     background-size: 450px 300px;
+     color: #fff;
+ }
+ #logo{
+     height: 70px;
+ }
+ .quote{
+     display: inline-flex;
+     justify-content: center;
+     align-items:flex-start;
+     width: 100%;
+     height: 30vh;
+     font-size: xx-large;
+    
+ .navbar{
+    background-color: #016A70;
+ }   
+ }
+ .gandhi{
+ 
+     margin-left: auto;
+     margin-right: 30px;
+     margin-top: 30px;
+    
+ }
+ .quote1{
+     align-self: center;
+     justify-content: center;
+     margin-left: auto;
+     
+font-family: 'Roboto Slab', serif;
+
+ }
+
+ @media (max-width: 1250px) {
+   .pricing-container {
+     flex-direction: column;
+     height: 100%;
+   }
+ }

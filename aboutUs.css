@@ -1,0 +1,12 @@
+#logo{
+    height:70px;
+}
+.aboutUs{
+    justify-content: center;
+    text-align: justify;
+}
+body{
+  /* background-color:  #FFDBAA;*/
+   background-color: #FBF0B2;
+   font-family: 'Inter', sans-serif;
+}
